@@ -8,6 +8,10 @@ body, html{
   color:#666;
 }
 
+h2{
+  text-align: center;
+}
+
 .bg1,.bg2,.bg3{
   position:relative;
   opacity:0.70;
@@ -15,7 +19,6 @@ body, html{
   background-size:cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
-
 }
 
 
@@ -30,17 +33,28 @@ body, html{
   text-transform:uppercase;
 }
 
+.wraper .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+
+/* .wraper .border.trans{
+  background-color:transparent;
+} */
+
 
 .bg1{
-  background-image:url('../images/gamedesign1.png');
+  background-image:url('../images/MHW_Iceborne.jpg');
   min-height:100%;
 }
 .bg2{
-  background-image:url('../images/uxdesign.jpg');
+  background-image:url('../images/image009_S.jpg');
   min-height:100%;
 }
 .bg3{
-  background-image:url('../images/web.jpg');
+  background-image:url('../images/Monster Hunter-Paolumu.jpg');
   min-height:100%;
 }
 
